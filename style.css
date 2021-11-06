@@ -5,6 +5,9 @@
 	margin: auto;
 	align-items: center;
 }
+.movie {
+	font-size: 20px;
+}
 * {
 	font-family: 'Audiowide', cursive;
 	background-color: black;
