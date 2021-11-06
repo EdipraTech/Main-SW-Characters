@@ -1,0 +1,37 @@
+.img {
+	box-sizing: content-box;
+	width: 17.5vw;
+	height: 25vw;
+	align-items: center center;
+}
+* {
+	font-family: 'Audiowide', cursive;
+	background-color: black;
+	color: yellow;
+}
+body {
+	width: 100vw;
+}
+a {
+	text-decoration: none;
+	color: yellow;
+}
+a:hover {
+	text-decoration: none;
+	color: yellow;
+}
+.padding-text {
+	padding: 5px;
+	padding-bottom: 15px;
+}
+.heading {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	font-size: 60px;
+}
+/* .block-border {
+	border: 2px solid yellow;
+	border-radius: 10px;
+	margin: 25px;
+} */
