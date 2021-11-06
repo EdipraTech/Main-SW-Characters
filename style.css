@@ -4,6 +4,15 @@
 	height: auto;
 	margin: auto;
 	align-items: center;
+	box-shadow: 5px 5px 10px yellow;
+}
+.img-main {
+	box-sizing: content-box;
+	width: 250px;
+	height: auto;
+	margin: auto;
+	margin-bottom: 10px;
+	align-items: center;
 }
 .movie {
 	font-size: 17.5px;
