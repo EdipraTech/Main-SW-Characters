@@ -1,16 +1,24 @@
 .img {
 	box-sizing: content-box;
-	width: 17.5vw;
-	height: 25vw;
-	align-items: center center;
+	width: 250px;
+	height: auto;
+	margin: auto;
+	align-items: center;
 }
 * {
 	font-family: 'Audiowide', cursive;
 	background-color: black;
 	color: yellow;
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+	width: auto;
 }
-body {
-	width: 100vw;
+body {	
+	margin: auto;
+	padding: 0;
+	box-sizing: content-box;
+	width: 90vw;
 }
 a {
 	text-decoration: none;
@@ -27,11 +35,5 @@ a:hover {
 .heading {
 	padding: 0;
 	margin: 0;
-	width: 100vw;
 	font-size: 60px;
 }
-/* .block-border {
-	border: 2px solid yellow;
-	border-radius: 10px;
-	margin: 25px;
-} */
