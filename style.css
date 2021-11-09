@@ -1,20 +1,35 @@
 .img {
 	box-sizing: content-box;
-	width: 250px;
-	height: auto;
+	width: 275px;
+	height: 400px;
 	margin: auto;
-	align-items: center;
+	align-items: center 0;
 	box-shadow: 5px 5px 10px yellow;
+}
+img {
+	box-sizing: content-box;
+	width: 275px;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 10px;
+	align-items: 0 0;
+	overflow: hidden;
+	object-fit: cover;
 }
 .img-main {
 	box-sizing: content-box;
-	width: 250px;
-	height: auto;
+	width: 275px;
+	height: 400px;
 	margin: auto;
 	margin-bottom: 10px;
-	align-items: center;
+	align-items: center 0;
+	overflow: hidden;
+	box-shadow: 5px 5px 10px yellow;
 }
 .movie {
+	font-size: 17.5px;
+}
+.character {
 	font-size: 17.5px;
 }
 * {
