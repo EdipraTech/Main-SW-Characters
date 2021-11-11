@@ -75,3 +75,6 @@ a:hover {
 .neither {
 	box-shadow: 5px 5px 10px yellow;
 }
+.top-margin {
+	margin-top: 20px;
+}
