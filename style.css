@@ -1,3 +1,6 @@
+.col {
+	min-width: 350px;
+}
 .img {
 	box-sizing: content-box;
 	width: 275px;
@@ -27,12 +30,18 @@ img {
 }
 .movie {
 	font-size: 17.5px;
+	background-color: transparent;
 }
 .mv-shadow{
 	box-shadow: 5px 5px 10px yellow;
+	animation-name: breatheMovie;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 .character {
 	font-size: 17.5px;
+	background-color: transparent;
 }
 * {
 	font-family: 'Audiowide', cursive;
@@ -68,13 +77,58 @@ a:hover {
 }
 .empire {
 	box-shadow: 5px 5px 10px #EB212E;
+	animation-name: breatheEmpire;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
 }
 .republic {
 	box-shadow: 5px 5px 10px #15f2fd;
+	animation-name: breatheRepublic;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 .neither {
 	box-shadow: 5px 5px 10px yellow;
+	animation-name: breatheNeither;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 .top-margin {
 	margin-top: 20px;
+}
+@keyframes breatheEmpire {
+	from {
+		box-shadow:  5px 5px 10px #EB212E;
+	}
+	to {
+		box-shadow:  7px 7px 15px #EB212E;
+	}
+}
+@keyframes breatheRepublic {
+	from {
+		box-shadow: 5px 5px 10px #15f2fd;
+	}
+	to {
+		box-shadow: 7px 7px 15px #15f2fd;
+	}
+}
+@keyframes breatheNeither {
+	from {
+		box-shadow: 5px 5px 10px yellow;
+	}
+	to {
+		box-shadow: 7px 7px 15px yellow;
+	}
+}
+@keyframes breatheMovie {
+	from {
+		box-shadow: 5px 5px 10px yellow;
+	}
+	to {
+		box-shadow: 7px 7px 15px yellow;
+	}
 }
