@@ -1,5 +1,15 @@
 .col {
-	min-width: 350px;
+	min-width: 25vw;
+}
+@media (max-width:1000px) {
+	.col {
+		min-width: 250px;
+	}
+}
+html {
+	background-color: black;
+	color: black;
+	background: black;
 }
 .img {
 	box-sizing: content-box;
@@ -47,6 +57,7 @@ img {
 	font-family: 'Audiowide', cursive;
 	background-color: black;
 	color: yellow;
+	background: black;
 	box-sizing: content-box;
 	margin: 0;
 	padding: 0;
