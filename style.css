@@ -121,25 +121,25 @@ a:hover {
 }
 @keyframes breatheRepublic {
 	from {
-		box-shadow: 5px 5px 10px #15f2fd;
+		box-shadow: 0px 0px 10px #15f2fd;
 	}
 	to {
-		box-shadow: 7px 7px 15px #15f2fd;
+		box-shadow: 0px 0px 15px #15f2fd;
 	}
 }
 @keyframes breatheNeither {
 	from {
-		box-shadow: 5px 5px 10px yellow;
+		box-shadow: 0px 0px 10px yellow;
 	}
 	to {
-		box-shadow: 7px 7px 15px yellow;
+		box-shadow: 0px 0px 15px yellow;
 	}
 }
 @keyframes breatheMovie {
 	from {
-		box-shadow: 5px 5px 10px yellow;
+		box-shadow: 0px 0px 10px yellow;
 	}
 	to {
-		box-shadow: 7px 7px 15px yellow;
+		box-shadow: 0px 0px 15px yellow;
 	}
 }
