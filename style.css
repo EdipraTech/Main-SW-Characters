@@ -87,7 +87,7 @@ a:hover {
 	font-size: 60px;
 }
 .empire {
-	box-shadow: 5px 5px 10px #EB212E;
+	box-shadow: 0px 0px 10px #EB212E;
 	animation-name: breatheEmpire;
 	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
